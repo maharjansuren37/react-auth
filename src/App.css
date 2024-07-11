@@ -3,6 +3,10 @@ h3 {
   font-weight: bold;
 }
 
+.container {
+  max-width: calc(1000px - 2rem);
+}
+
 .center {
   position: absolute;
   top: 50%;
@@ -10,20 +14,10 @@ h3 {
   transform: translate(-50%, -50%);
 }
 
-.outline {
-  outline: 2px solid green;
-}
-
-.formLabel {
+input[type=email],
+input[type=password] {
+  width: 100%;
   display: block;
-  margin-bottom: 1rem;
-}
-
-.formInput {
-  width: 500px;
-  padding: .5rem 1rem;
-  margin-bottom: 1rem;
-  outline: none;
 }
 
 .submitBtn {
