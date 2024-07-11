@@ -1,0 +1,46 @@
+h3 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.outline {
+  outline: 2px solid green;
+}
+
+.formLabel {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.formInput {
+  width: 500px;
+  padding: .5rem 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+}
+
+.submitBtn {
+  margin-bottom: 1rem;
+  padding: .5rem 2rem;
+  background-color: transparent;
+  border: 1px solid black;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.submitBtn:hover,
+.submitBtn:focus,
+.submitBtn:active {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
